@@ -1,0 +1,299 @@
+@font-face {
+    font-family: urw-form;
+    src: url('../fonts/HelveticaNeueLTPro-Md/Karlo\'s\ Video\ Archives\ Font.ttf');
+}
+
+body {
+    background: #ddd6f3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #faaca8, #ddd6f3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #faaca8, #ddd6f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: urw-form;
+    font-weight: 100; /*work more on the font !!*/
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+#header {
+    width: 100%;
+    margin-top: 5em;
+    margin-bottom: 7em;
+    text-align: center;
+}
+
+#header h1 {
+    width: 100%;
+    font-size: 34px;
+}
+
+#main-btn {
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: 60px;
+    font-size: 18px;
+    background-color: #508dd2;
+    border-radius: 4px;
+    box-shadow: 0px 5px 20px -5px #508dd2;
+}
+
+#main-btn:hover {
+    background-color: #0026ff;
+    box-shadow: 0px 5px 20px -5px #0026ff;
+}
+
+#second_sec {
+    padding-top: 5em;
+    padding-bottom: 10em;
+    background-color: #1c0030;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: stretch;
+}
+
+#second_sec h1{
+    font-size: 32px;
+    margin-bottom: 1em;
+}
+
+#form input {
+    width: 75%;
+    display: block;
+    margin: auto;
+}
+
+#form button:hover {
+    background-color: #0026ff;
+}
+
+#label {
+    text-align: center;
+    padding-top: 1em;
+    
+} 
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #header {
+        width: 100%;
+        margin-top: 5em;
+        margin-bottom: 7em;
+    }
+    
+    #header h1 {
+        width: 100%;
+        font-size: 34px;
+    }
+    
+    #main-btn {
+        display: block;
+        margin: auto;
+        width: 50%;
+        height: 60px;
+        font-size: 18px;
+        background-color: #508dd2;
+        border-radius: 4px;
+        box-shadow: 0px 5px 20px -5px #508dd2;
+    }
+
+    #main-btn:hover {
+        background-color: #0026ff;
+        box-shadow: 0px 5px 20px -5px #0026ff;
+    }
+    
+    #second_sec {
+        padding-top: 5em;
+        padding-bottom: 10em;
+        background-color: #1c0030;
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: stretch;
+    }
+    
+    #second_sec h1{
+        font-size: 32px;
+        margin-bottom: 1em;
+    }
+
+    #form button:hover {
+        background-color: #0026ff;
+    }
+    
+    #label {
+        text-align: center;
+        padding-top: 1em;
+        
+    } 
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #header {
+        margin-top: 5em;
+        margin-bottom: 8em;
+        margin-left: 3em;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    
+    #main-btn {
+        display: block;
+        margin-left: 0em;
+        width: 30%;
+        height: 60px;
+        background-color: #508dd2;
+        border-radius: 5px;
+        box-shadow: 0px 5px 20px -5px #508dd2;
+    }
+
+    #main-btn:hover {
+        background-color: #0026ff;
+        box-shadow: 0px 5px 20px -5px #0026ff;
+    }
+    
+    #second_sec {
+        padding: 5em 0.5em;
+        padding-bottom: 10em;
+        background-color: #1c0030;
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;
+    }
+    #second_sec div {
+       width: 80%;
+    }
+    #second_sec h1 {
+        font-size: 42px;
+        width: 75%;
+        margin: auto;
+    }
+
+    #second_sec p {
+        padding: 1em 2em;
+        width: 75%;
+        margin: auto;
+    }
+    
+    #form input {
+        border-radius: 4px;
+        width: 50%;
+        height: 50px;
+    }
+    
+    #form button {
+        background-color: #508dd2;
+        border-radius: 4px;
+        width: 20%;
+        height: 50px;
+    }
+    
+    #form button:hover {
+        background-color: #0026ff;
+    }
+
+    #label {
+        display: block;
+        width: 100%;
+        padding-top: 1em;
+        margin-left: 0;
+        text-align: left;
+
+        /* display: block;
+        width: 50%;
+        padding: 1em 4em;
+        text-align: left; */
+    }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #header {
+        margin: 10em auto 12em auto;
+        padding-left: 3em;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    #header p{
+        width: 50%;
+    }
+    
+    #main-btn {
+        display: block;
+        margin-left: 0em;
+        width: 20%;
+        height: 60px;
+        background-color: #508dd2;
+        border-radius: 5px;
+        box-shadow: 0px 5px 20px -5px #508dd2;
+    }
+
+    #main-btn:hover {
+        background-color: #0026ff;
+        box-shadow: 0px 5px 20px -5px #0026ff;
+    }
+    
+    #second_sec {
+        padding: 5em 2em;
+        padding-bottom: 10em;
+        background-color: #1c0030;
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;
+    }
+    #second_sec div {
+       width: 50%;
+    }
+    #second_sec h1 {
+        font-size: 42px;
+        width: 75%;
+        margin: auto;
+    }
+
+    #second_sec p {
+        padding: 1em 2em;
+        width: 75%;
+        margin: auto;
+    }
+    
+    #form input {
+        border-radius: 4px;
+        width: 60%;
+        height: 60px;
+    }
+    
+    #form button {
+        background-color: #508dd2;
+        border-radius: 4px;
+        width: 24%;
+        height: 60px;
+    }
+
+    #form button:hover {
+        background-color: #0026ff;
+    }
+    
+    #label {
+        display: block;
+        width: 50%;
+        padding: 1em 4em;
+        text-align: left;
+    }
+}
+
+
